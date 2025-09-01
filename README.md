@@ -8,11 +8,16 @@ What I mean by that is: say you see your mate Pete running across campus to the 
 
 This mix of creative brainstorming and stable world model seems a good place to start trying to formalise what is special about human minds, and how we might make systems later that can do it.
 
+### Specifics
+Within the field of causal cognition, the problem of how people decide what is *the cause* of an event has usually been studied separately from the problem of causal inference, or how people know the setting of something they can't see. But real causal cognition is fast and intuitive and seems to combine both those tasks.
+
 I made a start on this with a project called `gw`, which stands for `gridworld` (little square depictions of worlds that characters can move about in, like a cartoon urban environment). It's my main PhD project, so is not finished yet. The latest and most user-friendly bit is the `Collider` project. Here I scale down the whole model to a small easy environment, to make sure it works and we understand its implications. A collider is when two causes can both cause an effect. It can either be disjunctive (either cause on its own can cause the effect) or conjunctive (both are needed).
 
 My main programming language is R. I use that for data analysis and visualisation, (see `TuringToM` project repo for examples), and for programming models using probability distributions, simulation and logic (`gw`). See the Experiment folder in `Collider` for my JavaScript.
 
 You can read more details on the README for each project.
+
+Some repos are old, sells or just for practice. Avoid any that have not been updated since 2022! 
 
 
 <!---
