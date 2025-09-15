@@ -1,19 +1,15 @@
-Hi, I’m @Stephaniedroop (Steph)
+Hi, I’m Steph. 
 
-[TLDR; start with the `Collider` repo]. 
+I'm a PhD student at University of Edinburgh in computational cognitive modelling (aka 'doing psychology with the tools of computer science'). My research is on how we decide something is a cause of something else. I use the methodology of causal structural models and Bayesian inference, and work from simpler to richer scenarios, ending on modelling people's free text explanations for a variety of outcomes.
 
-I'm a PhD student at University of Edinburgh in computational cognitive modelling (aka 'doing psychology with the tools of computer science'). My main research question is to model, with bits of maths and programs, the process of how the human mind *generates explanations*, or how people suggest reasons to explain the surprising behaviour of others.
+The main repos on here to see my work are from my PhD:
 
-What I mean by that is: say you see your mate Pete running across campus to the pizza van. Why? That's easy to explain if you know Pete likes pizza, and it's lunch time. Easy! Everyone knows a liking for pizza tends to promote pizza-eating behaviour! But a love of pizza doesn't mean you eat pizza every minute of every day. It only *generally* promotes the behaviour. What about this time? Is a liking for pizza definitely the cause this time? Besides, what if you know Pete's on a diet, doesn't like pizza, and it isn't even lunchtime? It seems toally normal that we humans would start to hypothesise and brainstorm: maybe he knows the person who works there and he's dropping off his keys, maybe he saw his kid run into the road behind the van... any number of reasons. It seems that when the available variables are consistent with what we see, we can cite them as plausible reasons. But when the outcome is surprising, we integrate what else we know about the world, perhaps by interrogating some kind of *world model*.
+1. Collider (either '_cogsci25' or '_cognition'). Chapter 1 of my thesis: where I model how people combine causal inference and causal selection in a simple determinative structure where two possible causes A and B can cause effect E, and each has an accompanying unobserved counterpart.
+2. Gridworld ('gw'). Chapter 2 of my thesis: where I model different agents' choice of food and path. The agents have differnet biographical details which make their behaviour more or less congruous.
+3. Continuation of gridworld, not written yet.
 
-This mix of creative brainstorming and stable world model seems a good place to start trying to formalise what is special about human minds, and how we might make systems later that can do it.
+Other good repos are `TuringToM` which was as standalone project on a Turing test for large language models. The data got largely superseded when the field moved very fast, but there are some good visualisations in ggplot. 
 
-### Specifics
-Within the field of causal cognition, the problem of how people decide what is *the cause* of an event has usually been studied separately from the problem of causal inference, or how people know the setting of something they can't see. But real causal cognition is fast and intuitive and seems to combine both those tasks.
-
-I made a start on this with a project called `gw`, which stands for `gridworld` (little square depictions of worlds that characters can move about in, like a cartoon urban environment). It's my main PhD project, so is not finished yet. The latest and most user-friendly bit is the `Collider` project. Here I scale down the whole model to a small easy environment, to make sure it works and we understand its implications. A collider is when two causes can both cause an effect. It can either be disjunctive (either cause on its own can cause the effect) or conjunctive (both are needed).
-
-My main programming language is R. I use that for data analysis and visualisation, (see `TuringToM` project repo for examples), and for programming models using probability distributions, simulation and logic (`gw`). See the Experiment folder in `Collider` for my JavaScript.
 
 You can read more details on the README for each project.
 
