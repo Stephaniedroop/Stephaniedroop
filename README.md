@@ -16,11 +16,9 @@ You can read more details on the README for each project.
 Some repos are old, sells or just for practice. Avoid any that have not been updated since 2022! 
 
 ### Declaration on generative AI 
-Sometimes I use generative AI to help write code, either in the form of GitHub copilot auto-complete for one-liners whose purpose I already specified in a comment, or I ask e.g. Perplexity for help debugging an error or debugging or writing a call to a package, etc.
+Sometimes I use generative AI to help write code.
 
-I always test the result by progressively removing parts and noting how it behaves. For me in code, legibility, functionality and standardisation are more important than individuality. I want to write code that works and is usable. Through using genAI I have found that the way I was taught R in 2018 is no longer considered best practice, for example, and I want to prioritise production-ready over idiosyncrasy. 
-
-I have never and will never use generative AI to write **text** instead of my own voice. The difference is that in writing, it is important that I speak as me personally. Our thoughts have been encoded in words for longer. 
+I always test the result by progressively removing parts and noting how it behaves. For me in code, legibility, functionality and standardisation are more important than individuality. I want to write code that works and is usable. Through using genAI I have found that the way I was taught R in 2018 is no longer considered best practice, for example, and I want to prioritise production-ready over idiosyncrasy.  
 
 <!---
 Stephaniedroop/Stephaniedroop is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
